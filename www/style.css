@@ -1,0 +1,107 @@
+div.shiny-bound-output {
+  min-width: 300px;
+  max-width: 700px;
+}
+a[data-toggle='tab'] {
+  font-size: 16px;
+}
+a[aria-expanded='true'] {
+  font-weight: bold;
+}
+
+div.equation {
+  display: inline-flex;                    
+}
+span.avoidwrap > div.shiny-input-container {
+  display: inline-block;
+}
+#marginal_prod_input > div {
+  width: 75%;
+}
+
+div.equation input {
+  text-align: right;
+}
+
+div.tab-pane.active {
+  transform: translateX(-30px);
+}
+span.avoidwrap { 
+  display: inline-block; 
+}
+span.avoidwrap input {
+  width: 6em;
+}
+.latex-equation {
+  padding-bottom: 10px;
+}
+div.latex-equation > img {
+  display: block;
+  margin: auto;
+}
+div.shiny-input-container {
+  margin: auto;
+}
+form.well{
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+div.well{
+  padding-top: 10px;
+}
+input#variable_amount {
+  disabled:true;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  float:left;
+}
+
+thead {
+  border-bottom: solid 2px lightgrey;
+}
+thead:before {
+  content: "Output";
+  position: absolute;
+}
+thead > tr > td {
+  text-align: right;
+}
+tr.highlight {
+  background-color: #EFEFEF;
+}
+text.nv-axislabel {
+  font-weight: bold;
+  font-size: 14px;
+}
+text {
+  opacity: 1;
+}
+
+/* These might help the graphs rescale to better fit lower-resolution monitors, but can't get it to work */
+/*
+.svg-container-tab1 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 60%; /* aspect ratio = height/width
+    vertical-align: top;
+    /*overflow: hidden;
+}
+.svg-container-tab2 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 45%; /* aspect ratio
+    vertical-align: top;
+    /*overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*/
